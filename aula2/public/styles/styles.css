@@ -11,7 +11,7 @@
 }
 
 html {
-  --brand-light: #5f404250;
+  --background: #5f404250;
   --text-color: #f232f1;
 
   scroll-behavior: smooth;
@@ -31,7 +31,7 @@ body {
 
   overflow: overlay;
 
-  background-color: var(--brand-light);
+  background-color: var(--background);
 }
 
 h1 {
