@@ -11,6 +11,9 @@
 }
 
 html {
+  --brand-light: #5f404250;
+  --text-color: #f232f1;
+
   scroll-behavior: smooth;
 }
 
@@ -21,7 +24,18 @@ body {
   height: 100%;
 }
 
+body {
+  font-size: 1.6rem;
+
+  text-align: center;
+
+  overflow: overlay;
+
+  background-color: var(--brand-light);
+}
+
 h1 {
+  background-color: var(--text-color);
   color: aqua;
 }
 
