@@ -22,5 +22,13 @@ body {
 }
 
 h1 {
-    color: aqua;
+  color: aqua;
+}
+
+.teste {
+  color: rebeccapurple;
+}
+
+#teste1 {
+  color: brown;
 }
