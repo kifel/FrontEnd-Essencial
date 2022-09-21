@@ -1,8 +1,9 @@
 ## FrontEnd Essencial
 
-Disciplina FronEnd Essencial serratec
+Disciplina de FrontEnd Essencial do SerraTec
 
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 
 --- 
 
