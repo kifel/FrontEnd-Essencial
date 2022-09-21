@@ -40,13 +40,17 @@ h1 {
   color: aqua;
 }
 
+p {
+  font-size: 4rem;
+}
+
 .teste {
   color: rebeccapurple;
 }
 
 .redondo {
-  width: 50rem;
-  height: 50rem;
+  width: 10rem;
+  height: 10rem;
   background-color: black;
   border-radius: 55%;
   margin: auto;
@@ -55,4 +59,23 @@ h1 {
 
 #teste1 {
   color: brown;
+}
+
+footer {
+  height: 5.9rem;
+  background-color: black;
+}
+
+footer li {
+  display: inline-block;
+  margin: 2rem .5rem;
+}
+
+footer a{
+  color:white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--text-color);
 }
