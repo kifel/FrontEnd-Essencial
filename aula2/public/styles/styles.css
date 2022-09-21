@@ -43,6 +43,15 @@ h1 {
   color: rebeccapurple;
 }
 
+.rodondo {
+  width: 50rem;
+  height: 50rem;
+  background-color: black;
+  border-radius: 55%;
+  margin: auto;
+  margin-top: 15rem;
+}
+
 #teste1 {
   color: brown;
 }
