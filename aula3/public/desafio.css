@@ -34,7 +34,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-top: 2rem;
-  width: 50%;
+  width: 35%;
   height: 90%;
   background-color: black;
 }
@@ -43,8 +43,8 @@ body {
   position: relative;
   margin: 0 auto;
   margin-top: 20rem;
-  height: 30%;
-  width: 30%;
+  height: 25%;
+  width: 35%;
   border-radius: 50%;
   background-color: white;
 }
@@ -52,9 +52,9 @@ body {
 .linha {
   position: absolute;
   margin: 0 auto;
-  margin-top: 31rem;
+  margin-top: 29.8rem;
   height: 4%;
-  width: 40%;
+  width: 30%;
   background-color: white;
 }
 
@@ -63,6 +63,6 @@ body {
     margin-top: 75rem;
     background-color: white;
     height: 10%;
-    width: 45%;
+    width: 30%;
     border-radius: 3rem;
 }
