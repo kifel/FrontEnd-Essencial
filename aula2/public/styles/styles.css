@@ -35,6 +35,7 @@ body {
 }
 
 h1 {
+  font-size: 6rem;
   background-color: var(--text-color);
   color: aqua;
 }
@@ -43,7 +44,7 @@ h1 {
   color: rebeccapurple;
 }
 
-.rodondo {
+.redondo {
   width: 50rem;
   height: 50rem;
   background-color: black;
