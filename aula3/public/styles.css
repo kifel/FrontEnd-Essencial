@@ -27,18 +27,23 @@ body {
   text-align: center;
 
   overflow: overlay;
-
 }
 
 .conteiner {
-    margin: 0 auto;
-    width: 50%;
-    height: 50%;
-    background-color: blue;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background-color: blue;
 }
 
 .amarela {
-    width: 50%;
-    height: 50%;
-    background-color: yellow;
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 25px;
 }
