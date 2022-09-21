@@ -1,0 +1,44 @@
+/*=== GERAL ===*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Making the html and body 100% of the viewport. */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  text-align: center;
+
+  overflow: overlay;
+
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+.amarela {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
