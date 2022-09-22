@@ -30,39 +30,38 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 2rem;
-  width: 35%;
-  height: 90%;
+  position: relative;
+  margin: 0.8rem auto;
+  width: 25%;
+  height: 60%;
   background-color: black;
 }
 
 .bola {
   position: relative;
-  margin: 0 auto;
-  margin-top: 20rem;
-  height: 25%;
-  width: 35%;
+  height: 15rem;
+  width: 15rem;
   border-radius: 50%;
   background-color: white;
+  margin: auto;
+  top: 8.3rem;
 }
 
 .linha {
-  position: absolute;
-  margin: 0 auto;
-  margin-top: 29.8rem;
-  height: 4%;
-  width: 30%;
   background-color: white;
+  width: 75%;
+  height: 2rem;
+  margin: auto;
 }
 
-.linhainfo {
-    position: absolute;
-    margin-top: 75rem;
-    background-color: white;
-    height: 10%;
-    width: 30%;
-    border-radius: 3rem;
+.linhared {
+  position: absolute;
+  background-color: white;
+  height: 10%;
+  width: 90%;
+  bottom: 1.8rem;
+  border-radius: 0.8rem;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
