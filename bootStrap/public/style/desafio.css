@@ -1,0 +1,30 @@
+.grid-container {
+    margin-top: 50px;
+    border: 1px solid red;
+    padding: 8px;
+}
+
+.grid-row {
+    border: 1px solid black;
+    height: 100px;
+    margin: 0;
+    padding: 8px;
+}
+
+.col-a {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.col-b {
+    height: 500px;
+}
+
+.col-c {
+    height: 150px;
+}
+
+.col-4, .col-8, .col-12 {
+    border: 1px solid purple;
+    padding: 8px;
+}
