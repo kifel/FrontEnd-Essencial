@@ -2,6 +2,23 @@
     color:aqua;
 }
 
+.grid-container {
+    border: 1px solid red;
+    padding: 8px;
+}
+
+.grid-row {
+    border: 1px solid black;
+    height: 100px;
+    margin: 0;
+    padding: 8px;
+}
+
+.col {
+    border: 1px solid peru;
+    padding: 8px;
+}
+
 @media(min-width:576px) {
     .breakpoints {
         color: black;
