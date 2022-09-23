@@ -24,7 +24,7 @@
     height: 150px;
 }
 
-.col-4, .col-8, .col-12 {
+.col-3, .col-4, .col-9, .col-12 {
     border: 1px solid purple;
     padding: 8px;
 }
