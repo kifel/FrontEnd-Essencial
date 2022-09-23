@@ -41,13 +41,16 @@
         placeholder="Digite o seu nome"
       />
       <br />
+      <br />
       <label for="sexo">Sexo:</label>
       Masculino<input type="radio" name="sexo" id="sexo" value="masculino" />
       Feminino<input type="radio" name="sexo" id="sexo" value="feminino" />
       Outros<input type="radio" name="sexo" id="sexo" value=" outros" />
       <br />
+      <br />
       <label for="nome">Data de nascimento: </label>
       <input type="date" name="nascimento" id="nascimento" />
+      <br />
       <br />
       <label for="email">Email: </label>
       <input
@@ -57,6 +60,7 @@
         placeholder="Digite o seu email"
       />
       <br />
+      <br />
       <label for="senha">Digite sua senha: </label>
       <input
         type="password"
@@ -65,10 +69,32 @@
         placeholder="Digite uma senha"
       />
       <br />
+      <br />
       <label for="receberemail">Receber E-mail? </label>
       <input type="checkbox" nome="receberEmail" id="receberEmail" checked />
       <br />
+      <br />
       <input type="submit" value="enviar" />
     </form>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="col-4 ms-4">
+      <h2>Formulário bootstrap</h2>
+      <form>
+        <div class="mb-4 mt-4">
+          <label for="email1" class="form-label">Email:</label>
+          <input type="email" name="email1" id="email1" class="form-control" required/>
+        </div>
+        <div class="mb-4 mt-4">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1 ">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
