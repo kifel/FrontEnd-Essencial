@@ -31,5 +31,44 @@
   </head>
   <body>
     <h1>Formulários</h1>
+
+    <form action="cadastro.php" method="POST">
+      <label for="nome">Nome: </label>
+      <input
+        type="text"
+        name="nome"
+        id="nome"
+        placeholder="Digite o seu nome"
+      />
+      <br />
+      <label for="sexo">Sexo:</label>
+      Masculino<input type="radio" name="sexo" id="sexo" value="masculino" />
+      Feminino<input type="radio" name="sexo" id="sexo" value="feminino" />
+      Outros<input type="radio" name="sexo" id="sexo" value=" outros" />
+      <br />
+      <label for="nome">Data de nascimento: </label>
+      <input type="date" name="nascimento" id="nascimento" />
+      <br />
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        nome="email"
+        id="email"
+        placeholder="Digite o seu email"
+      />
+      <br />
+      <label for="senha">Digite sua senha: </label>
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Digite uma senha"
+      />
+      <br />
+      <label for="receberemail">Receber E-mail? </label>
+      <input type="checkbox" nome="receberEmail" id="receberEmail" checked />
+      <br />
+      <input type="submit" value="enviar" />
+    </form>
   </body>
 </html>
