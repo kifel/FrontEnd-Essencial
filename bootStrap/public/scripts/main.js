@@ -27,7 +27,9 @@ function login() {
   const email = document.querySelector("#email1");
   const senha = document.querySelector("#senha1");
 
-  if (email.value == user.email && senha.value == user.senha) {
+  if (email.value == "" || senha.value == "") {
+    alert("Please enter your email and password");
+  } else if (email.value == user.email && senha.value == user.senha) {
     alert("Logado com sucesso");
   } else {
     alert("Senha ou email errado");
