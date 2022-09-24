@@ -35,6 +35,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ## ✒️ Autores
 
 * **João Victor de Mello Pereira** - *Desenvolvimento do código* - [KifelG](https://github.com/kifel)
+* **João Felipe** - *Professor de FrontEnd Essencial* - [brjoaof](https://github.com/brjoaof)
 
 --- 
  
