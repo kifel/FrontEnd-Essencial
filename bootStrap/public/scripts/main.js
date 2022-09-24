@@ -14,6 +14,15 @@ function imprimeNoConsole() {
   console.log("Função Imprime no console ativada com sucesso!");
 }
 
+const user = {
+    email: "kifel@gmail.com",
+    senha: "12345"
+}
+
+
+/**
+ * It gets the values of the email and password fields, and then logs them to the console.
+ */
 function login() {
   const email = document.querySelector("#email1").value;
   const senha = document.querySelector("#senha1").value;
