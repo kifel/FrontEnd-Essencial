@@ -24,15 +24,15 @@ const user = {
  * It gets the values of the email and password fields, and then logs them to the console.
  */
 function login() {
-  const email = document.querySelector("#email1").value;
-  const senha = document.querySelector("#senha1").value;
+  const email = document.querySelector("#email1");
+  const senha = document.querySelector("#senha1");
 
-  if (email == user.email && senha == user.senha) {
+  if (email.value == user.email && senha.value == user.senha) {
     alert("Logado com sucesso");
   } else {
     alert("Senha ou email errado");
   }
 
-  document.querySelector("#email1").value = "";
-  document.querySelector("#senha1").value = "";
+  email.value = "";
+  senha.value = "";
 }
