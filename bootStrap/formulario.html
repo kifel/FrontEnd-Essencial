@@ -94,6 +94,18 @@
             name="email1"
             id="email1"
             class="form-control"
+            placeholder="Digite o seu email"
+            required
+          />
+        </div>
+        <div class="mb-4 mt-4">
+          <label for="senha1" class="form-label">Senha:</label>
+          <input
+            type="password"
+            name="senha1"
+            id="senha1"
+            class="form-control"
+            placeholder="Digite a sua senha"
             required
           />
         </div>
@@ -103,7 +115,9 @@
             >Check me out</label
           >
         </div>
-        <button type="submit" class="btn btn-primary" onclick="imprimeNoConsole()">Submit</button>
+        <button type="button" class="btn btn-success" onclick="login()">
+          Submit
+        </button>
       </form>
     </div>
   </body>
