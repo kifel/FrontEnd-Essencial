@@ -39,6 +39,10 @@ function login() {
   senha.value = "";
 }
 
+/**
+ * If the button is checked, change the background color to black and the text color to white. If the
+ * button is not checked, change the background color to white and the text color to black.
+ */
 function switchTheme() {
     const button = document.querySelector("#flexSwitchCheckDefault")
 
