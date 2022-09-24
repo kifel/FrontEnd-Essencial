@@ -38,3 +38,16 @@ function login() {
   email.value = "";
   senha.value = "";
 }
+
+function switchTheme() {
+    const button = document.querySelector("#flexSwitchCheckDefault")
+
+    if(button.checked) {
+        document.body.style.backgroundColor = "#000"
+        document.body.style.color = "#fff"
+    }else {
+        document.body.style.backgroundColor = "#fff"
+        document.body.style.color = "#000"
+    }
+
+}
